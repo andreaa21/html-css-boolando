@@ -75,10 +75,16 @@ header .header-content ul a{
 
 main .row{
   margin-top: 50px;
+  text-align: center;
 }
 
 main .product{
-  width: calc(100% / 3)
+  width: calc(95% / 3);
+  display: inline-block;  
+}
+
+main .product:nth-child(2), .product:nth-child(5){
+  margin: 0 15px;
 }
 
 main .product .image{
