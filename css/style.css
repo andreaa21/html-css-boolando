@@ -34,3 +34,27 @@ img{
 }
 
 
+/* HEADER */
+
+header{
+  background-color: #FF6900;
+}
+
+header .header-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+header .header-content img{
+  width: 80px;
+}
+
+header .header-content ul{
+  display: flex;
+  list-style: none;
+}
+
+header .header-content ul a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
