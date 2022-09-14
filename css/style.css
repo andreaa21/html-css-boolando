@@ -160,3 +160,12 @@ main .product .image .heart{
 .product .text .price{
   text-decoration: line-through;
 }
+
+main .product .sost-6{
+  position: absolute;
+  bottom: 70px;
+  color: white;
+  background-color: green;
+  font-weight: bold;
+  padding: 4px 10px;
+}
