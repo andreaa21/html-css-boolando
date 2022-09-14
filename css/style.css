@@ -169,3 +169,49 @@ main .product .sost-6{
   font-weight: bold;
   padding: 4px 10px;
 }
+
+/* FOOTER */
+
+
+footer{
+  background-color: #1A1A1A;
+}
+
+footer .container{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+footer .container .footer-left{
+  padding-left: 20px;
+}
+
+footer .container .footer-right{
+  padding-right: 20px;
+}
+
+footer .container h3, h5{
+  padding-top: 20px;
+}
+
+footer .container ul{
+  list-style: none;
+  display: flex;
+}
+
+footer .container ul li{
+  padding-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+footer .container ul a{
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+footer .container ul a i{
+  font-size: 1.2rem;
+}
