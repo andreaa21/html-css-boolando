@@ -70,3 +70,35 @@ header .header-content ul a{
   color: #FFFFFF;
   font-weight: bold;
 }
+
+/* MAIN */
+
+main .row{
+  margin-top: 50px;
+}
+
+main .product{
+  width: calc(100% / 3)
+}
+
+.product .text .brand, .clothing-type{
+  display: block;
+}
+
+.product .text .brand{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product .text .clothing-type{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product .text .discounted-price{
+  color: red;
+  font-weight: bold;
+}
+
+.product .text .price{
+  text-decoration: line-through;
+}
