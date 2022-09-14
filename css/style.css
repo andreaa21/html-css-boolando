@@ -74,13 +74,14 @@ header .header-content ul a{
 /* MAIN */
 
 main .row{
-  margin-top: 50px;
+  margin-top: 60px;
   text-align: center;
 }
 
 main .product{
   width: calc(95% / 3);
   display: inline-block;  
+  margin-bottom: 50px;
 }
 
 main .product:nth-child(2), .product:nth-child(5){
@@ -131,6 +132,10 @@ main .product .image .heart{
   height: 45px;
   text-align: center;
   line-height: 45px;
+}
+
+.product .text{
+  text-align: left;
 }
 
 .product .text .brand, .clothing-type{
