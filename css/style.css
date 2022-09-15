@@ -37,6 +37,11 @@ img{
 /* HEADER */
 
 header{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #FF6900;
   box-shadow: 1px 1px 10px black;
 }
